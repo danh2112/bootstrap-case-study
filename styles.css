@@ -1,0 +1,109 @@
+html{
+    font-family: 'Lato', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Noto Sans', sans-serif;
+}
+
+header{
+    background-color:#374f6b;
+}
+
+nav.navbar{
+    background-color:#131921 !important;
+}
+
+#img-header{
+    max-width: 100%;
+}
+
+#img-section1{
+    width: 100%;
+}
+
+main{
+    background-color:#b1cae77a;
+}
+
+section{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+#section1{
+    min-height: 30rem;
+}
+
+#section2 .section-header{
+    background-image: url('/images/pexels-photo-452738.jpeg');
+    background-size: cover;
+    background-position:center center;
+    height:10rem;
+    text-align: center;
+}
+
+#section2 .section-header .content{
+    background-color: #131a22bf;
+    height: 100%;
+}
+
+button{
+    background-color: #febd69;
+    border:0;
+}
+
+button:hover,button:focus{
+    background-color: #f3a847;
+}
+
+#section2>.section-content{
+    margin-top: -2.5rem;
+}
+
+#section2>.section-content .card{
+    background-color: #f3a847;
+    border-radius: 10px;
+    border: 1px solid white;
+    max-width: 15rem;
+}
+
+#section3 .card{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    padding: 2rem 1rem;
+    background-color: rgb(72, 71, 71);
+    margin-top: 0.5rem;
+    max-width: 25rem;
+}
+
+footer{
+    background-color:#131A22;
+}
+
+#section4{
+    background: linear-gradient(to bottom, #f8c685,#f3a847);
+    padding: 2rem
+}
+
+#section5 .card{
+    padding: 2rem 1rem;
+    margin: auto;
+}
+
+#section5 .card-img-top{
+    height: 10rem;
+    width: 10rem;
+    margin: auto;
+}
+
+@media (min-width: 768px){
+    #section1 .article{
+        margin-left: -6rem;
+        background-color: #374f6ba7;
+        color: white;
+        position: absolute;
+        margin-top: 4rem !important;
+    }
+}
